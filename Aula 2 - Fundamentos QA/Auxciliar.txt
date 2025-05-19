@@ -1,0 +1,98 @@
+Definir qualidade:
+
+NBR/ISO 9000:2005: grau no qual um conunto de caracterisiticas inerentes satisfaz a qualidade
+
+A Qualidade de software é avaliada em termos de atributos de alto nível chamado fatores, que são medidos em relação a atributos de baixo nível, chamados critérios
+
+
+Percepções de qualidade
+
+- Visão transcendetal
+- Visão do usuário
+- Visão de manufatura
+- Visão de produto
+- Visão baseada em valor
+
+Normas e padrões de qualidade
+
+-Normas tecnicas são documentos publicados por organizações profissionais que objetivam padronizar determinadas atividades, processos, produtos e etc
+(IEEE,ISO,IEC)
+
+Normas p/ qualidadade de software(Família ISO 9000)
+
+
+Medindo qualidade
+
+- Qualidade interna
+- Métricas internas
+- Qualidade externa
+- Métricas externas
+- Qualidade em uso
+- Metricas de qualidade de uso
+
+Processos de gerenciamento de qualidade
+
+- Planejamento
+- Garantia de qualidadade
+- Controle de qualidadade
+- Melhorias de processos
+
+
+Gerenciamento de defeitos
+
+- Conjunto de todos os processos que garantem que os produtos, serviços e o ciclo de vida vão de encontro com os objetivos da qualidade de forma a alcançar a satisfação do usuário
+
+Atividades do gerenciamento
+
+- Planejamento de qualidadade
+- Garantia de qualidadade
+- Controle de qualidadade
+- Melhoria de processos
+
+Planejamento
+
+- padrões e processos de qualidadade a serem utilizados
+- metas específicas de qualidade
+- esforço e organização de atividades
+
+Garantia de qualidadade
+
+- Atividades que definem a avaliam a adequação dos processos de software de forma a prover evidências que estabelecem confiança no produto produzido
+
+Controle de qualidade
+
+- Examinação de artefatos do projeto para determinar se os padrões acordados estão sendos seguidos
+- Avaliação de produtos intermediários e do produto final
+
+Melhorias de processos
+
+- Se preocupa com a melhoria na eficiência, efetividade e quaisquer características que tenham como meta principal a melhoria da qualidade de software
+
+Gerenciamento de defeitos
+
+- Controle de qualidade: análise estática e dinâmica(validação x verificação)
+
+Rastreamento de defeitos
+- Entendimento do produto e dos tipos de defeitos encontrados
+- Facilita a correção do processo ou do produto
+- Reportar status do produto   
+- Alinhamento de revisões pelo time de desenvolvimento
+
+O que é defeito?
+- Erro: Ação humana produzindo resultado errado
+- Defeito: Imperfeição ou deficiência relacionada aos requerimentos e especificações do produto
+- Falha de sistema: Evento no qual o sistema não executa uma função sob limite dos periféricos
+
+Ciclo de vida do bug
+
+Ferramentas de suporte
+
+- Bugzilla
+- Jira
+- Trac
+- Azure Devops
+- Trello
+- backlog
+
+Introdução aos testes de software
+

@@ -1,0 +1,158 @@
+Importância da qualidade de software:
+
+Elaborar métodos e processos padronizados na busca de gerenciar a qualidade do software robustos.
+
+Preocupações da qualidade:
+Nivel organizacional: proc organizacional e padrões
+
+Nivel de projeto: plano de qualidade e aplicação de proc específicos de qualidade
+
+Gerenciamento de qualidade != bucocratização.
+
+Atributos de QA de software:
+
+segurança -> proteção, confiabilidade, resiliência e robustez.
+Compeensibilidade -> testabilidade, adaptável, modularidade, complexidade
+Portabilidade -> usuabilidade, reusabilidade, eficiência e capacidade de aprendizado
+
+
+O futuro p/ qualidade
+ Foca na experiência do usuário
+  -> performance,acessibilidade, segurança, usuabilidade
+
+
+Eng de software
+sol viáveis, processos técnicos, processos gerenciais
+
+processos de software -> especificação + desenvolvimento + validação + evolução
+
+Na validação entra a QA
+
+eng de software != codificação
+
+tipos básico de engenheiros de software:
+Front-End: Parte visual da aplicação e integração do usuário
+Back-End: processamento de dados, regras de negócio
+Quality Assurance: Validações e verificações de funcionalidade, gestão de defeitos e processos de qualidade
+Devops/SRE: cultura de processos de operações para garantir confiabilidade, monitoramento, desempenho e pipelines de desenvolvimento
+
+Perfis e responsabilidade de QA
+
+Redução de custos e retrabalho
+Identificação de problemas
+Entrega de produtos com qualidade
+Melhora na satisfação do cliente
+Melhora na estimativa dos projetos
+Otimização da rotina de trabalho
+
+Função: Time ou grupo de pessoas e ferramentas p/ realizar um ou mais processos/atividades
+Papel: conj de responsabilidades, atividades e autoridades definidas em um processo de forma mais específica
+Cargo: responsabilidade que a pessoa assume em relação ao processo da empresa
+
+Funções do QA:
+Cultura de qualidade
+Testes automatizados
+Aux na compreensão de histórias para validar e verificar requisitos
+Gerenciamento de defeitos do software
+Testes manuais
+Auxilio a desenvolvedores
+
+Responsabilidades:
+
+Gerenciamento
+Análise
+Teste manuais
+Testes automatizados
+    UI/interface
+    APIs
+    Performance/desempenho
+
+Certificações e suas importâncias
+Validações internaciona de skils em testes de software
+Criação e melhorar nas skill pq progressão de carreira
+Credibilidade profissional
+-----x-----
+
+Roadmap
+
+Fundamentos de QA software 
+
+- Definições de qualidade
+- Priorização e técnicas de testes
+- Plano de testes e documentação
+- Gerenciamento de casos de testes
+- Taxonomia de testes
+- Gerenciamento de defeitos
+- Métricas/Relatórios
+
+Processos de software e cliclo de vida
+
+- Modelos de processo de software
+- Desenvolvimento ágil de software
+- Testes dentro do modelo ágil
+
+Fundamentos de aplicações Web e Redes 
+
+- Fundamentos de Redes
+- Arquitetura da internet e protocolos importantes
+- Funcionamento de webpages
+- Linguagens e tecnologias
+
+Fundamentos de ciência da computação
+
+- Representações e estrutura de dados
+- Compilação x Interpretação
+- Concorrência e theading
+- Conceitos de sistemas operacionais
+- Algoritmos e complexidade
+
+Fundamentos de programação
+
+- Uso de linha de comando
+- Editores e IDEs
+- Sintaxe e fluxo de controle
+- Paradigmas da programação
+
+Padrões de projeto e arquitetura de sistemas
+
+- Conceitos e tipos de padrões
+- Tipos de Arquitetura e
+- Modelagem de sistemas
+
+Testes automatizados
+
+- Pirâmide de testes
+- Automação como investimento
+- Tipos de testes automatizados
+- Frameworks para Automação
+- Objetos falsos e seus tipos
+- BDD e linguagem Gherkin
+
+CI/CD 
+
+- Estratégias de versionamento e tecnologias
+- Deploys, release e orquestração
+- Configuração e builds
+- Uso de containers
+- Testes integrados à pipeline
+- Device farms e execução remota
+
+Erros que QAs podem cometer
+
+- Falhas na análise de ocorrência  
+- Medo de fazer perguntas
+- Automações falhas e sem padrões
+- Esquecer do usuário
+- Culpar outros por defeitos/bugs
+- Não ter a visão do que ocorre em produção
+- Não se importar com processos técnicos do desenvolvimentos
+
+Pensando nas caracteristicas do software
+
+- Funcionamento
+- Confiabilidade
+- Usabilidade 
+- Eficiência 
+- Manutenibilidade
+- Portabilidade
+ 
