@@ -1,0 +1,105 @@
+Site do Jira: https://www.atlassian.com/br/software/jira?campaign=19324540271&adgroup=143040565565&targetid=kwd-11723159468&matchtype=e&network=g&device=c&device_model=&creative=642122380528&keyword=jira%20software&placement=&target=&ds_eid=700000001558501&ds_e1=GOOGLE&gad_source=1&gad_campaignid=19324540271&gbraid=0AAAAAD_uzhAPJ0C85BsQ20qndZ75Cndvu&gclid=CjwKCAjwruXBBhArEiwACBRtHWeYe_H3kIfpvUhm8K_b7xWAQwJqONsb7dQok9wdwHxvkK218-e8cRoC9qgQAvD_BwE
+
+    Jira – Gestão de Projetos e Tarefas
+O Jira é uma ferramenta da empresa Atlassian, usada principalmente para gestão de projetos, tarefas e acompanhamento de atividades, especialmente em equipes que usam metodologias ágeis como Scrum e Kanban.
+
+Principais funções:
+
+Criação e acompanhamento de tarefas (issues).
+
+Organização de tarefas em quadros (boards) com status como "A Fazer", "Em Andamento" e "Concluído".
+
+Planejamento de sprints e acompanhamento de progresso.
+
+Geração de relatórios de produtividade (como burndown charts).
+
+Integração com ferramentas como GitHub, Bitbucket e Confluence.
+
+Ideal para: equipes de desenvolvimento de software, suporte técnico, marketing e qualquer time que trabalhe com projetos organizados.
+
+    Confluence – Documentação e Colaboração
+O Confluence também é da Atlassian e funciona como uma plataforma de criação e organização de documentos colaborativos, como um "wiki corporativo".
+
+Principais funções:
+
+Criação de páginas e espaços para documentar projetos, processos, reuniões, tutoriais, etc.
+
+Edição colaborativa em tempo real.
+
+Organização por hierarquias e tags.
+
+Integração com o Jira: é possível referenciar tarefas e sprints diretamente nos documentos.
+
+Permissões personalizadas para controle de acesso.
+
+Ideal para: centralizar o conhecimento da equipe, manter documentação atualizada e facilitar a comunicação interna.
+
+    Scrum – Metodologia Ágil com Ciclos de Entrega
+O Scrum é uma metodologia ágil voltada para o gerenciamento de projetos complexos, especialmente em desenvolvimento de software. Ele se baseia em ciclos curtos e repetitivos de trabalho, chamados sprints.
+
+Principais características:
+
+Sprints: ciclos de trabalho fixos (geralmente de 1 a 4 semanas).
+
+Papéis definidos:
+
+Product Owner: responsável por priorizar o que deve ser feito.
+
+Scrum Master: garante que a metodologia seja seguida corretamente.
+
+Time de desenvolvimento: realiza as tarefas.
+
+Cerimônias:
+
+Sprint Planning (planejamento da sprint)
+
+Daily Scrum (reunião diária de 15 min)
+
+Sprint Review (demonstração do que foi feito)
+
+Sprint Retrospective (melhorias no processo)
+
+Backlog do produto: lista priorizada de funcionalidades a desenvolver.
+
+Objetivo: Entregar valor ao cliente de forma iterativa e contínua, com foco em adaptação rápida e feedback constante.
+
+    Kanban – Fluxo Contínuo de Trabalho
+O Kanban é uma metodologia ágil mais visual e flexível, focada no fluxo contínuo de tarefas, sem sprints fixos. É excelente para equipes que lidam com demandas variáveis.
+
+Principais características:
+
+Quadro visual com colunas como: "A Fazer", "Em Progresso", "Concluído".
+
+Cartões representam tarefas e se movem de coluna conforme o andamento.
+
+Limites de trabalho em progresso (WIP) ajudam a evitar sobrecarga.
+
+Não há papéis fixos nem cerimônias obrigatórias (mais leve que Scrum).
+
+Foco na melhoria contínua do processo e na eficiência do fluxo.
+
+Objetivo: Manter um fluxo de trabalho estável, evitar gargalos e promover entregas contínuas.
+
+
+    User stories
+Aboragem estutural de requerimentos a parti da visão do usuário:
+
+Fórmula:
+    - Saber quem é o usuário que deseja a funcionalidades
+    - Saber o que o usuário deseja
+    - Entender a motivação e razão
+    - Princípios 3C( Cartão, Conversa, Confirmação)
+ 
+ Uso de diagrama, fluxogramas, mindmaps e etc é super importante para contribuir na compreensão
+
+Discurssão com a equipe é essencial para refinamento
+
+Características de uma User Story:
+
+    - Independente
+    - Negociável
+    - Valiosa
+    - Estimável
+    - Pequena
+    - Testável
+
