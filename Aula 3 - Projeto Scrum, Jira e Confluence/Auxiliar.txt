@@ -1,5 +1,3 @@
-Site do Jira: https://www.atlassian.com/br/software/jira?campaign=19324540271&adgroup=143040565565&targetid=kwd-11723159468&matchtype=e&network=g&device=c&device_model=&creative=642122380528&keyword=jira%20software&placement=&target=&ds_eid=700000001558501&ds_e1=GOOGLE&gad_source=1&gad_campaignid=19324540271&gbraid=0AAAAAD_uzhAPJ0C85BsQ20qndZ75Cndvu&gclid=CjwKCAjwruXBBhArEiwACBRtHWeYe_H3kIfpvUhm8K_b7xWAQwJqONsb7dQok9wdwHxvkK218-e8cRoC9qgQAvD_BwE
-
     Jira – Gestão de Projetos e Tarefas
 O Jira é uma ferramenta da empresa Atlassian, usada principalmente para gestão de projetos, tarefas e acompanhamento de atividades, especialmente em equipes que usam metodologias ágeis como Scrum e Kanban.
 
