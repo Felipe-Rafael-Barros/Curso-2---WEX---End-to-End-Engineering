@@ -1,0 +1,68 @@
+* Fundamentos para projetos de automação
+
+Objetivo: Introduzir conceitos importantes relacionados à automação de testes, entendendo seu proósito e os fatores essenciais para o sucesso de sua implantação juntamente ao ciclo de vida do software.
+
+- O Propósito da automação no processo de teste:
+
+    Ciclo de vida do testes: Planejamento -> Monitoramento e controle -> Análise -> Design/Projeto -> Implementação -> Execução -> Finalização
+
+    A automação como atividade de testes
+        -software
+        -Documentação
+        -Ambientes de teste
+        -Dados de teste
+    Atividades de teste relacionadas
+        - Implementação de casos de testes automatizados
+        - Monitoramento e controle de Execução
+        - Interpretação, relatório e log de resultados
+    Objetivos da automação
+        - Melhorar a eficiência do teste
+        - Ampliar cobertura de testes
+        - Reduzir custo total de testes
+        - Diminuir tempo de Execução
+        - Aumentar frequência de testes
+    Vantagens da automação
+        - Teste que não podem ser feitos de maneira manual
+        - Complexidade pode anta -> tempo Diminuir
+        - Reduz erros humanos na validação
+        - Feedback mais rápido
+        - Maior confiabilidade
+    Desvantagens da automação
+        - Custos adicionais
+        - Investimento inicial para configuração da arquitetura de testes
+        - Investimento na arquitetura do software sob teste
+        - Complexidade de codificação
+        - Manutenção de testes
+    - Fatores de Sucesso Para automação
+        Algumas relexões
+            - Nem todos os testes podem ou devem ser automatizados
+            - A automação de testes não substitui os testes manuais
+            - A automação é limitada pela análise do sistema. A Subjetividade do analista/engenheiro é importantes
+            - Script de teste automatizado também é código assim como qualquer outro software, portanto, um bom analista deve se preocupar em um código limpo e com boas práticas.
+        Arquietura do Projeto de automação
+            - A arquitetura de um projeto de automação deve estar alinhada com a arquitetura do produto de software
+            - Lembrar que existem requisitoes não-funcionais para testes
+            - Envolvimento com desenvolvedores do projeto é essencial para o sucesso da automação
+        Testabilidade
+            - O produto de software deve ser construido, deve ser modelado
+            - pensando no suporte aos testes automatizado
+            - Desacoplamento entre camadas
+            - Expor módulos/funções/classes para facilitar testes
+            - Identificar e analisar módulos que são testáveis faz parte do processo de decisão de automação.
+        Estratégias de testes
+            - Identificar o conjunto, tipos e níveis de testes automatizados que garantem consistência e cobertura do sistema
+        Portfólios de Certificações
+            - Existe: Test Automation Engineer
+    - Ferramentas de suporte a testes automatizado
+        Uso de Framework de Automação de testes
+            -Avaliar um bom framework garante benefícios para: 
+                - Implementar relatórios de testes
+                - Facilitar resolução de problemas
+                - Facilitar configuração de Ambiente
+                - Documentar casos de testes
+                - Rastrear estapas dos casos de testes
+                - Facilitar manutenção dos testes
+                - Atualização dos testes automatizados
+                - Monitorar e restaurar execução dos testes em caso de falha
+                
+
