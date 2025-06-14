@@ -66,3 +66,65 @@ Objetivo: Introduzir conceitos importantes relacionados à automação de testes
                 - Monitorar e restaurar execução dos testes em caso de falha
                 
 
+* Arquitetura genérica e design para automação
+    - Revisitando conceitos de arquitetura de software
+        Objetivos:
+            -1. COnceitos genéricos sobre arquitetua de software
+            -2. Arquitetura genérica para projetos de automação
+            -3. O que considerar antes de iniciar um projeto?
+            -4. Abordagens para automação de casos de teste
+        
+        O que é uma arquitetura de software?
+            - Descrição e compreensão dos cmponenetes do sistema, suas estrutura e relações
+            - Considerar fatores externos na definição da arquitetura de um sistema
+        
+        Pensando nos padrões arquiteturais
+            - São soluções gerais e reutilizáveis para resolver problemas recorrentes dentro de certo contexto
+            - Estão inseridos em um escopo maior do sistema
+            - MVC (model,viewer,Controller)
+        E os padrões de projetos?
+            - São soluções gerais e reutilizáveis para problemas comuns relacionados à construção do projeto de software independente da linguagem
+            - São divididos em:
+                - Padrões de criação: factory methof, abstract factory, singleton...
+                - Padrões estruturais: adapter, composite, facade, proxy...
+                - Padrões comportamentais: command, observer, mediator...
+                - Extra: http://refactoring.guru/
+        SOLID
+            - Responsabilidade única: Cada componente deve ter uma única responsabilidade e esta deve ser encapsulada
+            - Extensão: Cada componente deve estar aberto para extensão, mas fechado para modificação
+            - Substituição: Cada componente deve ser substituível sem afetar o comportamento geral da solução
+            - Segregação: É melhor ter componentes específicos do que um componente geral multiuso
+            - Inversão de dependência: Os componentes devem depender de abstrações e não de detalhes de mais baixo nível.
+    
+    - Arquitetura do projeto de automação
+        - Canada de geração de testes
+            - Criação manual de casos de teste
+            - Desenvolvimento, captura ou obtenção de dados de teste
+            - Geração automática de cados de teste a partir de modelos
+        - Camada de definição de teste
+            - Especificação de casos de teste
+            - Definição de dados de teste
+            - Espeficicaçãode rocedimento de testes
+            - Definição de scripts para execução dos casos de teste
+            - Conceder acesso às bibliotecas de teste conforme necessário
+        - Camada de execução de teste
+            - Executar casos de teste automaticamente
+            - Registrar execuções 
+            - Relatar 
+        - Camada de adaptação de teste
+            - Controlar ambiente de teste
+            - Interagir com sistema a ser testado
+            - Monitorar o sistema sendo testado
+            - Simular ou emular o ambiente sendo testado
+        - Gerenciamento de projeto de solução de testes automatizados
+            - Prestar atenção ao gerenciamento de configuração do projeto
+            - Versionamento deve seguir boas práticas
+            - A extração de métricas deve ser analisada da mesma forma que em uma abordagem manual
+
+
+    - O que devemos considerar antes de iniciar um projeto
+        -
+    - Abordagens para automação
+        -
+
+
