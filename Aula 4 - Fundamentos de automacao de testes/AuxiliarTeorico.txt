@@ -141,6 +141,34 @@ Objetivo: Introduzir conceitos importantes relacionados à automação de testes
         - 4) A solução utiliza uma ferramenta que gera procedimentos atuomatizados de teste ou traduz os cripts diretamente dos modelos. Maior grau de automação
 
 
--
+- Padrões de projeto para testes E2E
+    - Padrões de projeto para automação E2E
+        - POM - Page Object model
+            - Vantagenss
+                - Reaproveitamento de código
+                - Código mais limpo
+                - Facilidade de manutenção
+                - Independência de testes
+            - Desvantagens
+                - Necessária boa compreensão de programação e do padrão em singleton
+                - Elementos ficam isolados a uma página específica
+                - É necessária uma boa modelagem, caso contrário as refatorações serão constantes
+                - Projetos complexos demandam mais tempo para automação
+
+    
+    - Conhecendo o Bunisse: Layer Page Object
+        - Modelagem maior que a anterior
+
+    - Conhecendo o ScreenPlay Pattern
+        - Não muito convensional, mais estético.
+        - Actor
+        - Mais fácil de ler as ações
+
+
+    - Conhecendo o App Actions(applitools)
+        - é utilizar a qrquitetura do Cypress a favor do desacoplamento entre a camada da aplicação e o HTML
+        - Utiliza-se o acesso à própia aplicação para configurar o estado do teste sem depender da UI, melhorando, dessa forma, a performance.
+        
+
 
 
