@@ -123,8 +123,24 @@ Objetivo: Introduzir conceitos importantes relacionados à automação de testes
 
 
     - O que devemos considerar antes de iniciar um projeto
-        -
+        - Qual atividade ou fase do processo de testes queremos automatizar?
+        - Qual nível de teste queremos ter suporte?
+        - Qual o tipo de teste?
+        - Quem executará e implementará o teste?
+        - Quais projetos existem gratuitos e quais podem ser comprados?
+        - Quais tecnologias queremos ter suporte? E a complexidade?
+        - Que linguagens queremos utilizar?
+        - Qual modelo de ciclo de vida do software estamos inseridos?
+        - Qual a complexidade de implementação e como afeta o projeto?
+        - Será necessário treinamento?
+
     - Abordagens para automação
-        -
+        - 1) A solução implementa casos de teste diretamente em scripts de teste automatizados
+        - 2) A solução projeta procedimentos de teste e os transforma em scripts automatizados
+        - 3) A solução utiliza uma ferramente para traduzir os procedimentos de teste em cripts de teste automatizados
+        - 4) A solução utiliza uma ferramenta que gera procedimentos atuomatizados de teste ou traduz os cripts diretamente dos modelos. Maior grau de automação
+
+
+-
 
 
