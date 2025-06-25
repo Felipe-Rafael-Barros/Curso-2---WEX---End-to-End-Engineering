@@ -1,0 +1,32 @@
+- Pré-Requisitos
+
+    - Lógica de programação
+
+- Fundamentos(As a Service)
+
+    - Pagar por poder computacional alugado
+    - Redes de servidores remotos que armazenam e gerenciam dados executam aplicativos e fornecem conteúdo e serviços
+
+- Tipos e Modelos
+
+    - On Premise
+    - Ambiente Cloud
+    - Hybrid Model
+
+- Iaas (Infra as a Sevece)
+
+    - Alugando a estrutura de uma outra empresa.
+    - Plafform:
+        - AWS
+        - Azure
+        - Oracle
+        -GPC
+
+- Regions & Zones
+
+    - Diferentes regiões de máquinas, fazendo com que possam diminuir a latência entre suas interações
+    - Locais diferentes onde os DataCenters vão ficar
+
+
+
+
