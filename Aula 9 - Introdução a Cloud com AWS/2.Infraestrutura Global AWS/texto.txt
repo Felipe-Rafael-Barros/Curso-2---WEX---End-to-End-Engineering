@@ -1,0 +1,55 @@
+Regiões
+
+    - Locais onde são hospedados os data centers da AWS
+    - Cada Região possuem locais isolados chamados Zonas de Disponibilidade
+    - Todas as regiões são conectadas com rede de alta velocidade
+    - Isolamento de dados
+    - Regulação de dados local
+
+Zonas de Disponibilidade
+    - Chamadas de AZs(Availability Zones)
+    - Agrupamento de datacenters isolados dentro de uma Região
+    - Rede, energia, conectividade redundantes
+    - Próximas o suficiente para manter baixa latência, longe o suficiente para evitar que um desastre afete mais de uma AZ
+    - Recomendação: Execute pelo menos em duas AZs
+
+Pontos de presença
+
+    - Também chamado de Edge locations, Locais de borda ou Redes de borda
+    - Funcionam como pontos específicos pelo globo para distribuir conteúdo de forma rápida
+    - Exemplos de serviços que se encontram nos locais de borda: Route 53(DNS), Cloud Front(CDN)
+
+Amazon CloudFront
+    
+    - Serviço de entrega de conteúdo: CDN
+    - Melhora a performance do seu serviço (baixa latência, alta taxa de transferência)
+    - Provê conteúdo o mais próximo possível do seu usuário
+
+Amazon Route 53
+
+    - Serviço de DNS
+    - Ajuda os clientes a redirecionar corretamente as requisições
+
+Como é possível interagir com serviços AWS?
+
+    - Console de gerenciamento
+    - AWS CLI
+    - SDKs
+
+Console de gerenciamento é você acessar via portal web com seu usuário e senha
+aws.amazon.com/pt/console/
+
+Pela AWS CLI linhas de comandos
+    - Instalado na sua máquina
+    - Opera com APIs da AWS através de linha de comando
+
+E Para AWS SDKs
+    - APIs
+    -Acesso as APIs AWS através de SDK
+    - SDK possui versões em diversas linguagens, como: Java, C#, Go, Python, JavaScript
+
+Provisionando infraestrutura
+    
+    - Elastic Beanstalk( automatiza o processo de deploy)
+    - CloudFormation(automatiza processos de construção de ambientes AWS)
+
