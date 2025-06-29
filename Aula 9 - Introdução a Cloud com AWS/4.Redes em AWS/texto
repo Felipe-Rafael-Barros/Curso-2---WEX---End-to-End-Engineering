@@ -1,0 +1,24 @@
+Amazon VPC
+    - VPC : Virtual Private Cloud
+    - Permite construir e configurar redes virtuais na AWS
+    - Sub-redes: privadas e públicas
+    - "Tudo começa dentro de um VPC"
+
+Conectividade com AWS
+    - Gateway da internet
+    - AWS Direct Connect: Segurança e velocidade
+
+
+Sub-redes e listas de controle de acesso
+
+    - Como dados trafegam em uma VPC?
+        - Network ACLs (stateless, subnet, permite todo tráfego de entrada e saída)
+            - Conf. controle do tráfego de entrada e saída de sub-redes
+            - Comportamento Stateless
+            - Por padrão, permite todo tráfego de entrada e saída
+        - Segurança para recursos
+            - Grupos de segurança(Stateful, Instância EC2, Nega todo tráfego de entrada e permite todo fluxo de saída)
+                - Camada adicional de segurança para EC2
+                - Controle tráfego de entrada e saída de instância EC2
+                - Comportamento Stateful
+                - Por padrão, nega todo o tráfego de entrada e permite todo tráfego de saída.
