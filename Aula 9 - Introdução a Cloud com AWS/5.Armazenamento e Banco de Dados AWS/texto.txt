@@ -1,0 +1,28 @@
+- Armazenamento de dados em nuvem
+    - Tipos de Armazenamento
+        - De Objetos (Object Storage)
+            - Object Storage
+            - Dados como objetos (arquivos e metadados)
+            - Dados não estruturados
+            - Casos de uso: Data lakes, Mídias, Backup e recuperação
+
+        - De Arquivos (File Storage)
+            - File Storage
+            - Sistemas de arquivos compartilhados
+            - Permite acesso por meio de servidores, aplicações e usuários
+            - Analogia com pastas compartilhadas em uma rede
+            - Casos de uso: Ferramentas de desenvolvimento, diretórios pessoais
+
+        - De Blocos (Block Storage)
+            - Block Storage
+            - Armazenamento de blocos: HDD, SSD
+            - Dispositivo com diferentes configurações de Leitura e Escrita
+            - Casos de uso: Máquinas virtuais, contêiners, banco de dados
+
+
+- Amazon Elastic Block Store - EBS
+- Amazon S3
+- EFS - Amazon Elastic Fil System
+- DynamoDB
+- Outros serviços de banco de dados
+- Big Data com Amazon Redshift
