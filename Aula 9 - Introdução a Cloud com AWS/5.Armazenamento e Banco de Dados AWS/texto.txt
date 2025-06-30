@@ -121,6 +121,26 @@
 
     
 - EFS - Amazon Elastic Fil System
+
+    - Elastic File System
+    - Fornece um sistema de arquivos
+    - Servless e totlamente elástico
+    - Escala até Petabytes
+    - Aumenta e diminui conforme adição e remoção de arquivos
+
+    O que é EFS?
+        - Compatível com protocolo NFS (Network file System)
+        - Pode ser acessado por EC2, Lambda, ECS
+        - Acesso simultâneo aos mesmos dados sem problemas de performance
+
+    Classes de armazenamento:
+        - Padrão (instância regional): Standard e Standard-IA(Infrequent Acess)
+        - Uma AZ: One Zone e One Zone-IA(Infrequent Acess)
+    Caos de uso:
+        - ...
+
+- Amazon Relational Database Service
+    
 - DynamoDB
 - Outros serviços de banco de dados
 - Big Data com Amazon Redshift
