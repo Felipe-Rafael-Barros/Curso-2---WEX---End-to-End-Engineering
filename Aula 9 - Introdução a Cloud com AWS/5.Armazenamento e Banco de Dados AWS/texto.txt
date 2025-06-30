@@ -45,6 +45,81 @@
         - Backup Incremental: primeiro dia grava o que foi feito, nos proximos so grava o que incrementar
 
 - Amazon S3
+
+    - Serviço de armazenamento de objetos
+    - S3 - Simple Storage Service
+
+    O que é um objeto no S3?
+        - Dados com dados, metadados(tipo, formato, tags, informações) e chaves
+        - Chave: Nome que você atribui ao objeto. Usado para recuperar o objeto
+        - Valor: O conteúdo que você está armazenando
+        - Metadados: Um conjunto de pares de nome-valor com o qual é possível armazenar informaçoes relacionadas ao objeto.
+
+    - Onde estão os objetos?
+        - Buckets S3
+            - Antes de um upload do seus objetos, você precisa criar um Bucket
+            - É um contêiner para objetos armazenados no Amazon S3
+            - Você pode armazenar qualquer número de objetos em um Bucket
+            - Objetos podem ter de 0 até 5TB de tamanho
+            - Você pode ter até 100 buckets na sua conta
+
+            Você ainda pode:
+                - Controlar acesso por objeto
+                - Utilizar versionamento de objetos
+
+            Casos de uso:
+                - Data lakes
+                - Arquivamento de dados
+                - Hospedagem de sites estáticos
+            Classes de armazenamento
+                - Categorias para adequar melhor as necessidades de negócio e custo
+                - Fatores importantes na seleção de uma categoria:
+                    - Com que frequência você planeja recuperar seus dados?
+                    - Seus dados precisam estar muito ou pouco disponíveis?
+                Classes:
+                    - S3 Standard
+                        - Projetado para dados acessados com frequência
+                        - Armazena dados em um mínimo de três Zonas de Disponibilidade
+                        - Boa escolha para diversos casos de uso como sites, distribuição de conteúdo e análise de dados
+                        - Custo mais alto
+
+                    - S3 Standard-Infraquent Acess (S3 Standard-Ia)
+                        - Semelhante ao S3 Standard
+                        - Armazena dados em um mínimo de três Zonas de Disponibilidade
+                        - Ideal para dados acessados com pouca frequência
+                        - Taxa por GB de armazenamento e recuperação mais baixo
+
+                    - S3 One Zone-Infraquent Acess (S3 One Zone-IA)
+                        - Tem um preço de armazenamento menor do que o S3 Standard-IA
+                        - Armazena dados em uma única Zona de Disponibilidade
+                        - Cenários: Você quer economizar custos com armazenamento e você pode reproduzir facilmente seus dados de falha na Zona de Disponibilidade.
+
+                    - S3 Intelligent-Tiering
+                        - Ideal para dados com padrões de acesso desconhecidos ou em alteração
+                        - Gerencia automaticamente o ciclo de vida dos objetos armazenados otimizando custos
+                        - Requer uma pequena taxa mensal de monitoramento e automação por objetos
+                        - Como funiona?
+                            - ...
+
+                    - S3 Glacier Instant Retrieval
+                        - Ideal para dados de longa duração, raramente acessados mas que exigem recuperação rápida(milissegundos)
+                        - Oferece acesso tão rápido quanto Standard e Standard-IA
+                        - Ideal para dados acessados uma vez por trimestre
+
+                    - S3 Glacier Flexible Retrieval
+                        - Para dados que não requerem acesso imediato
+                        - Ideal para casos de uso de backups não urgentes, recuperação de desastres
+                        - Usuário pode escolher qual velocidade de recuperação
+                        - Ideal para dados acessados 1 ou 2 vezes por ano
+
+                    - S3 Glacier Deep Archive
+
+                        - Suporte a retenção e preservação digital de longo prazo para dados que podem ser acessados 1 ou 2 vezes por ano
+                        - Ideal para empresas que precisam manter dados por conformidades legais por 7 a 10 anos
+                        - Recuperação de dados em até 12 horas
+
+
+    
 - EFS - Amazon Elastic Fil System
 - DynamoDB
 - Outros serviços de banco de dados
