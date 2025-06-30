@@ -21,6 +21,29 @@
 
 
 - Amazon Elastic Block Store - EBS
+
+    - Volume Instance Store
+        - Armazenamento de Blocos
+        - Discos anexados fisicamente ao computador host
+        - Ideal para dados de armazenamento temporário como buffers, caches, dados de rascunho.
+    - Dados serão perdidos se:
+        - Falha de disco de uma unidade
+        - Instância parada
+        - Instância hiberna
+        - Instância encerrada
+    - O EBS é:
+        - Armazenamento de Blocos
+        - Block, blocos = HD, físico
+        - Projetado para Amazon Elastic Compute Cloud (EC2)
+        - HDs são chamados "volumes"
+        Como funciona???
+            - Primeiro: Define o tipo de volume
+            - Segundo: Escolhe o tamanho e configurações
+            - Terceiro: Anexa o volume a uma instância EC2
+    Como funcionam os backups?
+        - Snapshots
+        - Backup Incremental: primeiro dia grava o que foi feito, nos proximos so grava o que incrementar
+
 - Amazon S3
 - EFS - Amazon Elastic Fil System
 - DynamoDB
