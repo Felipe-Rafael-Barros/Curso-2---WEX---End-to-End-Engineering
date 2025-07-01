@@ -188,4 +188,25 @@
 
 
 - Outros serviços de banco de dados
+    - Vale lembrar que a necessidade de negócio escolhe o tipo de banco de dados
+    - Amazon DocumentDB
+        - Banco de dados de documentos
+        - Gerenciamento de conteúdo
+        - Catálogos, perfeis de usuário
+        - Compatível com cargas de trabalho MongoDB
+    - Amazon Neptune
+        - Redes sociais, mecanismo de recomendação, detecção de fraude e gráficos de conhecimento
+        - Banco de dados de grafos
+    - Amazon QLDB
+        - Quantum Ledger Database
+        - Banco de dados serviço Ledger
+        - Imutabilidade
+        - Indicado para históricos, registros digitais, transações financeiras
+    - Amazon DynamoDB Accelerator
+        - Chamado também de DAX
+        - Camada de cache nativa para otimizar tempo de leitura de dados
+    - Amazon Elasticache
+        - Camada de cache sobre bancos de dados
+        - Compatível com Redis e Mencached
+        
 - Big Data com Amazon Redshift
