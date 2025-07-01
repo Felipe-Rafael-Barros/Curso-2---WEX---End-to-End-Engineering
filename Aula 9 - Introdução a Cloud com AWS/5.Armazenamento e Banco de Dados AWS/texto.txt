@@ -208,5 +208,17 @@
     - Amazon Elasticache
         - Camada de cache sobre bancos de dados
         - Compatível com Redis e Mencached
-        
+
 - Big Data com Amazon Redshift
+    - Vivemos em um mundo de cada vez mais dados:
+        -Muitas vezes eles não são padrões e com várias forma diferentes de configurações
+    - Em um contexto de:
+        - Velocidade de geração de dados
+        - Variedade de fontes de dados
+        - E quando os dados precisam responder com inteligência de negócio
+        - Usamos o Amazon Redshift
+    - Amazon Redshift
+        - Serviço de Data warehouse para análise de Big Data
+        - Oferece coletar informações de muitas fontes de dados
+        - Projeta relações e tendências de dados
+        - Usando Redshift Spectrum é possível rodar comandos SQL em cima de todas as fontes de dados agrupadas
