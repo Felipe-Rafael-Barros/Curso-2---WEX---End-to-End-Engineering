@@ -174,7 +174,18 @@
                 - Até 15 réplicas de leituras
                 - Backups contínuo via S3
 
-- DynamoDB
+- DynamoDB(NoSQL)
+    - Banco de dados não relacional (NoSQL)
+    - Gerenciado (Servless)
+    - Performance abaixo de 10 milissegundos
+    - Escala automaticamente
+    - Replicação de dados regional
+    - Caso de uso: Muitos dados, baixa latência
+    - Resumindo:
+        - Tabelas: Coleção de dados
+        - Item: Grupo de atributos identificável
+        - Atributo: Dados existêntes dentro de cada item
+
 
 - Outros serviços de banco de dados
 - Big Data com Amazon Redshift
