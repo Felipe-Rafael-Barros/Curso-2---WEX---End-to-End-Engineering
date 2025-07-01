@@ -140,7 +140,41 @@
         - ...
 
 - Amazon Relational Database Service
-    
+    - Banco de dados relacional
+        - Requisitos:
+            - Relação de dados
+            - Facilita a compreensão das informações
+            - SQL como linguagem de consulta
+            - RDBMS (Sitema de gerenciamento de banco de dados)
+        - Vendors
+            - PostgreSQL
+            - ORACLE
+            - MySQL
+            - SQL Server
+        Como usar na nuvem?
+            - Monatando-os em uma EC2
+            - Você usa, você Gerencia(fazer backup, armazenamento, DBA)
+        - Abordagem Alternativa é o RDS(Relational Database Service)
+            - Facilita configuração e provisionamento de hardware
+            - Patches automatizados
+            - Backups
+            - Redundância
+            - Failover e Recuperação de Desastres
+            - Mecanicsmos compatíveis:
+                - MySQL
+                - PostgreSQL
+                - MariaDB
+                - Oracle
+                - SQL Server
+            Amazon Aurora
+                - Servless
+                - Mecanicsmos compatíveis: PostgreSQL e MySQL
+                - Preço 1/10 de outros Vendors
+                - Replicação multi-regional
+                - Até 15 réplicas de leituras
+                - Backups contínuo via S3
+
 - DynamoDB
+
 - Outros serviços de banco de dados
 - Big Data com Amazon Redshift
